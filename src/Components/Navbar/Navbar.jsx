@@ -8,7 +8,7 @@ const Navbar = ({ colors, newcolors }) => {
         className="d-flex align-items-center justify-content-between sticky-top shadow-lg text-center p-3"
         style={{ backgroundColor: newcolors.secondBgColor, color: newcolors.color }}
       >
-       <Link to='/' className='text-decoration-none'><div className="fs-5 ms-xl-5 nav-logo text-dark" style={{color}}>Country Search App</div></Link>
+       <Link to='/' className='text-decoration-none'><div className="fs-5 ms-xl-5 nav-logo" style={{color:newcolors.color}}>Country Search App</div></Link>
         <div
           className="d-flex align-items-center cursor me-xl-5"
           onClick={colors}
